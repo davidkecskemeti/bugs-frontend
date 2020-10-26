@@ -10,7 +10,7 @@ export default function App() {
         <div className="App">
             <Provider store={store}>
                 <BugsList/>
-                <Bugs/>
+                {/*<Bugs/>*/}
             </Provider>
         </div>
     );
